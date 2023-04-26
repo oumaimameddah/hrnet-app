@@ -5,5 +5,8 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="HRnet" />
+    <orderEntry type="module" module-name="argentbank" />
+    <orderEntry type="module" module-name="P12_Front-end" />
   </component>
 </module>
