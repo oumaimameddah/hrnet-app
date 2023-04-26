@@ -1,0 +1,13 @@
+.main-container {
+  padding: 3rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+html, body {
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  height: 100vh;
+  margin: 0;
+}
