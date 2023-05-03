@@ -9,7 +9,8 @@ import {store} from "./redux/store";
 
 import App from './App';
 
-import "./styles/app.style.css"
+import "./styles/app.style.scss"
+import "bootstrap/scss/bootstrap.scss"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

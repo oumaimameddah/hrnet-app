@@ -1,7 +1,9 @@
 .main-container {
   padding: 3rem;
-  margin-right: auto;
-  margin-left: auto;
+  background-image: url(../assets/backroud-circles.svg);
+  background-size: cover;
+  background-position: 50%;
+  margin: 0;
 }
 
 html, body {
@@ -10,4 +12,8 @@ html, body {
   font-weight: 200;
   height: 100vh;
   margin: 0;
+}
+
+.row {
+  margin-bottom: 1rem;
 }
