@@ -25,7 +25,10 @@ export const useForm = (options) => {
 		if (event) {
 			event.preventDefault();
 		}
-		console.log(data);
+
+		if (options?.handleSubmit) {
+			options.handleSubmit();
+		}
 	};
 
 	return {

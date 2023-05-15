@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../DataTables/DataTables.iml" filepath="$PROJECT_DIR$/../DataTables/DataTables.iml" />
       <module fileurl="file://$PROJECT_DIR$/../HRnet/.idea/HRnet.iml" filepath="$PROJECT_DIR$/../HRnet/.idea/HRnet.iml" />
       <module fileurl="file://$PROJECT_DIR$/../P12_Front-end/.idea/P12_Front-end.iml" filepath="$PROJECT_DIR$/../P12_Front-end/.idea/P12_Front-end.iml" />
       <module fileurl="file://$PROJECT_DIR$/../archive/argentbank/.idea/argentbank.iml" filepath="$PROJECT_DIR$/../archive/argentbank/.idea/argentbank.iml" />
