@@ -71,7 +71,7 @@ const CreateEmployee = () => {
                     <h1>HRnet</h1>
                 </div>
                 <div className="form-setion">
-                    <button onClick={() => navigate("/employee-list")} aria-label="Navigate to employee list page" type="button" className="btn btn-outline-success btn-view-employee">View Current Employees</button>
+                    <button onClick={() => navigate("/employee-list")} aria-label="Navigate to employee list page" type="button" className="btn btn-success btn-view-employee">View Current Employees</button>
 
                     <h2 className="title-create-employee">Create Employee form</h2>
 
