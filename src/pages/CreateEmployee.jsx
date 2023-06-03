@@ -11,9 +11,10 @@ import "oum-react-modal/dist/index.css"
 
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import {useDispatch} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
 
-import { addEmployeeLoListAction } from "../redux/employee";
+import {addEmployeeLoListAction} from "../redux/employee";
+import {selectEmployeeList} from "../hooks/use.utilitises";
 
 const CreateEmployee = () => {
 
@@ -23,14 +24,18 @@ const CreateEmployee = () => {
 
     const dispatch = useDispatch();
 
+    const employees = useSelector(selectEmployeeList());
+
     const [showConfirmationModal, setShowConfirmationModal] = useState(false);
+
+    const [showExistModal, setExistModal] = useState(false);
 
     const navigate = useNavigate(); // to navigate to other page
 
     const {
         handleSubmit,
         handleChange,
-        data,
+        data
     } = useForm({
         default: {
             firstName: "",
@@ -55,8 +60,22 @@ const CreateEmployee = () => {
                 state: data.state,
                 zipCode: data.zip,
             };
-            dispatch(addEmployeeLoListAction(employee))
-            setShowConfirmationModal(true);
+            if (employees.find(el =>
+                el.firstName === employee.firstName &&
+                el.lastName === employee.lastName &&
+                el.dateOfBirth === employee.dateOfBirth &&
+                el.startDate === employee.startDate &&
+                el.department === employee.department &&
+                el.street === employee.street &&
+                el.city === employee.city &&
+                el.state === employee.state &&
+                el.zipCode === employee.zipCode) === undefined)
+            {
+                dispatch(addEmployeeLoListAction(employee));
+                setShowConfirmationModal(true);
+            } else {
+                setExistModal(true);
+            }
         }
     })
 
@@ -142,6 +161,7 @@ const CreateEmployee = () => {
                         <button type="submit" className="btn btn-primary">Submit</button>
                     </form>
                     <ReactModal id="create-employee-confirmation" modalContent="Employee has been created succeffully !" isModalOpened={showConfirmationModal} onClose={() => setShowConfirmationModal(false)} />
+                    <ReactModal id="create-employee-exist" modalContent="Exist Already !" isModalOpened={showExistModal} onClose={() => setExistModal(false)} />
                 </div>
             </main>
         </>

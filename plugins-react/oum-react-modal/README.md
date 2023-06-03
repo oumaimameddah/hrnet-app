@@ -1,6 +1,6 @@
 # oum-react-modal
 
-> A simple & lightweight method of displaying modal windows with React.
+> A simple & lightweight method of displaying modal windows with React and published.
 
 [![NPM](https://img.shields.io/npm/v/oum-react-modal.svg)](https://www.npmjs.com/package/oum-react-modal) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 

@@ -5,9 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd522fe5-df38-4cf6-8036-c30f955f3c42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../P12_Front-end/P12_Front-end.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../P12_Front-end/jquery.datetimepicker.full.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../P12_Front-end/jquery.datetimepicker.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lighthouse-repport/react/list_employe.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lighthouse-repport/react/list_employe_mobile.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lighthouse-repport/react/page_create_employe.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lighthouse-repport/react/page_create_employe_mobile.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lighthouse-repport/react/desktop-create-employee.json" beforeDir="false" afterPath="$PROJECT_DIR$/lighthouse-repport/react/page_create_employe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lighthouse-repport/react/desktop-create-employee.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lighthouse-repport/react/desktop-current-employees.json" beforeDir="false" afterPath="$PROJECT_DIR$/lighthouse-repport/react/list_employe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lighthouse-repport/react/desktop-current-employees.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lighthouse-repport/react/mobile-create-employee.json" beforeDir="false" afterPath="$PROJECT_DIR$/lighthouse-repport/react/page_create_employe_mobile.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lighthouse-repport/react/mobile-create-employee.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lighthouse-repport/react/mobile-current-employees.json" beforeDir="false" afterPath="$PROJECT_DIR$/lighthouse-repport/react/list_employe_mobile.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lighthouse-repport/react/mobile-current-employees.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins-react/oum-react-modal/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/plugins-react/oum-react-modal/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins-react/oum-react-modal/example/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/plugins-react/oum-react-modal/example/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins-react/oum-react-modal/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/plugins-react/oum-react-modal/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins-react/oum-react-modal/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/plugins-react/oum-react-modal/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins-react/oum-react-select/example/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins-react/oum-react-select/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/plugins-react/oum-react-select/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/use.utilitises.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/use.utilitises.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CreateEmployee.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CreateEmployee.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/employee.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/employee.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,22 +48,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/AYOUB/Desktop/Cloud/P12_Front-end",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lighthouse-repport/react" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\oumai\Desktop\OpenClassroom\final\hrnet-app\lighthouse-repport\react" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,5 +76,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

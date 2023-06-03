@@ -1,6 +1,6 @@
 import { createAction, createReducer } from "@reduxjs/toolkit";
 
-const initialStateOfList = {
+export const initialStateOfList = {
 	list: []
 };
 
