@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd522fe5-df38-4cf6-8036-c30f955f3c42" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../P12_Front-end/P12_Front-end.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../P12_Front-end/jquery.datetimepicker.full.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../P12_Front-end/jquery.datetimepicker.full.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/use.utilitises.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/use.utilitises.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/CreateEmployee.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CreateEmployee.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/EmployeeList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/EmployeeList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +30,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/AYOUB/Desktop/Cloud/P12_Front-end",
@@ -56,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685801253680</updated>
-      <workItem from="1685801254750" duration="3434000" />
+      <workItem from="1685801254750" duration="4089000" />
     </task>
     <servers />
   </component>

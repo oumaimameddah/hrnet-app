@@ -70,8 +70,3 @@ export const useTrapFocus = (ref, isOpened) => {
         }
     }, [ref, isOpened]);
 };
-
-export const selectEmployeeList = () => {
-    return (state) => state.employee.list;
-};
-
