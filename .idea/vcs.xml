@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$/../DataTables" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../HRnet" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../P12_Front-end" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../archive/argentbank" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/plugins/oum-react-modal" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/plugins/oum-react-select" vcs="Git" />
+    <mapping directory="" vcs="Git" />
   </component>
 </project>

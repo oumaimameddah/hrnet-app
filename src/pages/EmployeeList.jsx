@@ -80,7 +80,7 @@ const EmployeeList = () => {
                     <DataTable value={employees} paginator rows={5} rowsPerPageOptions={[5, 10, 25, 50]}
                                tableStyle={{minWidth: '50rem'}}
                                header={header}
-                               filters={filters} filterDisplay="row"
+                               filters={filters}
                                globalFilterFields={['firstName', 'lastName', 'startDate', 'department', 'dateOfBirth', 'street', 'city', 'state', 'zipCode']} emptyMessage="No employes found."
                     >
                         {

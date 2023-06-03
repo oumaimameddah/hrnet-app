@@ -44,7 +44,6 @@ const CreateEmployee = () => {
             zip: "",
         },
         handleSubmit: () => {
-            console.log(data);
             const employee = {
                 firstName: data.firstName,
                 lastName: data.lastName,
@@ -81,35 +80,36 @@ const CreateEmployee = () => {
                     <form
                         id="create-employee"
                         onSubmit={handleSubmit}
+                        className={'needs-validation'}
                     >
                         <div className="mb-3">
                             <label className="form-label" htmlFor="first-name">First Name</label>
-                            <input className="form-control" type="text" id="first-name" onChange={e => handleChange(e, "firstName")}/>
+                            <input className="form-control" type="text" id="first-name" onChange={e => handleChange(e, "firstName")} required/>
                         </div>
                         <div className="mb-3">
                             <label className="form-label" htmlFor="last-name">Last Name</label>
-                            <input className="form-control" type="text" id="last-name" onChange={e => handleChange(e, "lastName")}/>
+                            <input className="form-control" type="text" id="last-name" onChange={e => handleChange(e, "lastName")} required/>
                         </div>
 
                         <div className="mb-3">
                             <label className="form-label" htmlFor="date-of-birth">Date of Birth</label>
-                            <DatePicker className="form-control" id="date-of-birth"  selected={data.dateOfBirth} onChange={e => handleChange(e, "dateOfBirth")} />
+                            <DatePicker className="form-control" id="date-of-birth"  selected={data.dateOfBirth} onChange={e => handleChange(e, "dateOfBirth")} required/>
                         </div>
 
                         <div className="mb-3">
                             <label className="form-label" htmlFor="start-date">Start Date</label>
-                            <DatePicker className="form-control" id="start-date" selected={data.startDate} onChange={e => handleChange(e, "startDate")} />
+                            <DatePicker className="form-control" id="start-date" selected={data.startDate} onChange={e => handleChange(e, "startDate")} required/>
                         </div>
 
                         <fieldset className="address row g-3">
                             <legend>Address</legend>
                             <div className="col-12">
                                 <label htmlFor="inputStreet" className="form-label">Street</label>
-                                <input type="text" className="form-control" id="inputStreet" onChange={e => handleChange(e, "street")}/>
+                                <input type="text" className="form-control" id="inputStreet" onChange={e => handleChange(e, "street")} required/>
                             </div>
                             <div className="col-md-6">
                                 <label htmlFor="inputCity" className="form-label">City</label>
-                                <input type="text" className="form-control" id="inputCity" onChange={e => handleChange(e, "city")}/>
+                                <input type="text" className="form-control" id="inputCity" onChange={e => handleChange(e, "city")} required/>
                             </div>
                             <div className="col-md-4">
                                 <label htmlFor="inputState" className="form-label">State</label>
@@ -120,11 +120,11 @@ const CreateEmployee = () => {
                                              onChange={e => handleChange(e, "state")}
                                              listLabel="Chose your state"
                                              showListLabel={true}
-                                             requiredFeedbackEnabled={true} />
+                                             requiredFeedbackEnabled={true} required />
                             </div>
                             <div className="col-md-2">
                                 <label htmlFor="inputZip" className="form-label">Zip</label>
-                                <input type="text" className="form-control" id="inputZip" onChange={e => handleChange(e, "zip")}/>
+                                <input type="text" className="form-control" id="inputZip" onChange={e => handleChange(e, "zip")} required/>
                             </div>
                         </fieldset>
 
@@ -136,7 +136,7 @@ const CreateEmployee = () => {
                                          onChange={e => handleChange(e, "department")}
                                          listLabel="Chose your department"
                                          showListLabel={true}
-                                         requiredFeedbackEnabled={true} />
+                                         requiredFeedbackEnabled={true} required />
                         </div>
 
                         <button type="submit" className="btn btn-primary">Submit</button>

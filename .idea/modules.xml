@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../DataTables/DataTables.iml" filepath="$PROJECT_DIR$/../DataTables/DataTables.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../HRnet/.idea/HRnet.iml" filepath="$PROJECT_DIR$/../HRnet/.idea/HRnet.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../P12_Front-end/.idea/P12_Front-end.iml" filepath="$PROJECT_DIR$/../P12_Front-end/.idea/P12_Front-end.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../archive/argentbank/.idea/argentbank.iml" filepath="$PROJECT_DIR$/../archive/argentbank/.idea/argentbank.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hrnet-app.iml" filepath="$PROJECT_DIR$/hrnet-app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../oum-react-modal/oum-react-modal.iml" filepath="$PROJECT_DIR$/../oum-react-modal/oum-react-modal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../P12_Front-end/P12_Front-end.iml" filepath="$PROJECT_DIR$/../P12_Front-end/P12_Front-end.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/hrnet-app.iml" filepath="$PROJECT_DIR$/.idea/hrnet-app.iml" />
     </modules>
   </component>
 </project>
