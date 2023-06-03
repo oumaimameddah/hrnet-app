@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/../P12_Front-end/.idea/P12_Front-end.iml" filepath="$PROJECT_DIR$/../P12_Front-end/.idea/P12_Front-end.iml" />
       <module fileurl="file://$PROJECT_DIR$/../archive/argentbank/.idea/argentbank.iml" filepath="$PROJECT_DIR$/../archive/argentbank/.idea/argentbank.iml" />
       <module fileurl="file://$PROJECT_DIR$/hrnet-app.iml" filepath="$PROJECT_DIR$/hrnet-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../oum-react-modal/oum-react-modal.iml" filepath="$PROJECT_DIR$/../oum-react-modal/oum-react-modal.iml" />
     </modules>
   </component>
 </project>
