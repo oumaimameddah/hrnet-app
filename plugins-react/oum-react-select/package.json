@@ -1,10 +1,10 @@
 {
   "name": "oum-react-select",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Duplicates and extends the functionality of a native HTML select element, allowing it to be customizable in behavior and appearance far beyond the limitations of a native select.",
   "author": "Oumaima MEDDAH",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/oumaimameddah/hrnet-app",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.jsx",

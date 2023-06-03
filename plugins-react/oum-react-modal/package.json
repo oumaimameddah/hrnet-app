@@ -1,10 +1,10 @@
 {
   "name": "oum-react-modal",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A simple & lightweight method of displaying modal windows with React.",
   "author": "Oumaima MEDDAH",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/oumaimameddah/hrnet-app",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.jsx",

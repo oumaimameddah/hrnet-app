@@ -7,6 +7,7 @@
     <list default="true" id="bd522fe5-df38-4cf6-8036-c30f955f3c42" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../P12_Front-end/P12_Front-end.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../P12_Front-end/jquery.datetimepicker.full.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../P12_Front-end/jquery.datetimepicker.full.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685801253680</updated>
-      <workItem from="1685801254750" duration="4089000" />
+      <workItem from="1685801254750" duration="4956000" />
     </task>
     <servers />
   </component>
