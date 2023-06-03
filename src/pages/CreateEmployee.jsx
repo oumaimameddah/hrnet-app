@@ -3,8 +3,11 @@ import React, {useEffect, useState} from "react";
 import {useNavigate} from "react-router-dom";
 import {useForm} from "../hooks/useForm";
 import {departments, states} from "../hooks/api";
-import ReactModal from "../components/ReactModal";
-import ReactSelect from "../components/ReactSelect";
+import ReactModal from "oum-react-modal";
+import ReactSelect from "oum-react-select";
+import "oum-react-select/dist/index.css"
+import "oum-react-modal/dist/index.css"
+
 
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
